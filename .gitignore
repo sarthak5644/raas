@@ -1,0 +1,70 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.vite/
+*.log
+
+# User uploads and generated reports
+uploads/
+reports/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python environments
+backend/venv/
+backend/.venv/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Private uploads and generated reports
+uploads/
+reports/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and logs
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.log
+
+# ZIP archives and backups
+*.zip
